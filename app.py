@@ -1,2 +1,2 @@
 import http.server
-http.server.test(port=8080)
+http.server.test(HandlerClass=http.server.SimpleHTTPRequestHandler, port=8080)
